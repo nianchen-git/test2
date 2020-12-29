@@ -19,6 +19,7 @@ public class Main extends Application {
     private Node imageView;
 
     private String name = "再改一次";
+    private String one = "角色1";
 
     @Override
     public void start(Stage primaryStage) throws Exception {
