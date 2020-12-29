@@ -18,6 +18,8 @@ public class Main extends Application {
     private static final double SCREEN_HEIGHT = Screen.getPrimary().getVisualBounds().getHeight();
     private Node imageView;
 
+    private String name = "改原文件";
+
     @Override
     public void start(Stage primaryStage) throws Exception {
         int tpNum = (int) (Math.random() * 5) + 1;
